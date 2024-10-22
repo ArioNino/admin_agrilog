@@ -12,7 +12,7 @@
       </h2>
       <a href="/artikel/tambah">
         <button
-          class="flex items-center justify-between px-4 py-2 text-sm font-medium leading-5 mb-4 text-white transition-colors duration-150 bg-[#4AB7B6] border border-transparent rounded-lg hover:bg-green-700 focus:outline-none "
+          class="flex items-center justify-between px-4 py-2 text-sm font-medium leading-5 mb-4 text-white transition-colors duration-150 bg-[#4AB7B6] border border-transparent rounded-lg focus:outline-none "
         >
           <span>Tambah Data</span>
         </button>
@@ -48,15 +48,15 @@
                   6/10/2020
                 </td>
                 <td class="px-4 py-3 text-sm">
-                  Kualitas padi terus memburuk
+                  Teknik Efektif untuk Meningkatkan Hasil Pertanian
                 </td>
                 <td widht="200" class="px-4 py-3 text-sm">
-                  lorem adsasdajowoamdoamw daomaomdwomadonaownmd oian
+                  Perawatan tanaman merupakan salah satu aspek krusial dalam pertanian yang menentukan keberhasilan dan kualitas hasil panen
                 </td>
                 <td class="px-4 py-3 text-sm">
                   inigambar.png
                 </td>
-                <td class="px-4 py-3">
+                <td class="px-10 py-3 ">
                   <div class="flex items-center space-x-4 text-sm">
                     <a href="/artikel/edit">
                       <button
@@ -131,7 +131,7 @@
                 </li>
                 <li>
                   <button
-                    class="px-3 py-1 text-white transition-colors duration-150 bg-green-500 border border-r-0 border-green-600 rounded-md focus:outline-none "
+                    class="px-3 py-1 text-white transition-colors duration-150 bg-[#4AB7B6] border border-r-0 rounded-md focus:outline-none "
                   >
                     1
                   </button>

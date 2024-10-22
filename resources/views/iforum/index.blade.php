@@ -6,15 +6,15 @@
 <main class="h-full pb-16 overflow-y-auto">
     <div class="container grid px-6 mx-auto">
       <h2
-        class="my-6 text-2xl font-semibold text-gray-70"
+        class="my-6 text-2xl font-semibold text-gray-700"
       >
-        Tabel Forum
+        Tabel Artikel
       </h2>
-      <a href="/artikel/tambah" class="">
+      <a href="/artikel/tambah">
         <button
-          class="flex items-center justify-between px-4 py-2 text-sm font-medium leading-5 mb-4 text-white transition-colors duration-150 bg-purple-600 border border-transparent rounded-lg active:bg-purple-600 hover:bg-purple-700 focus:outline-none focus:shadow-outline-purple"
+          class="flex items-center justify-between px-4 py-2 text-sm font-medium leading-5 mb-4 text-white transition-colors duration-150 bg-[#4AB7B6] border border-transparent rounded-lg focus:outline-none "
         >
-          <span>Tambah Forum</span>
+          <span>Tambah Data</span>
         </button>
       </a>
       <!-- With actions -->
@@ -27,32 +27,32 @@
               >
                 <th class="px-4 py-3">No</th>
                 <th class="px-4 py-3">Nama</th>
-                <th class="px-4 py-3">Deskripsi</th>
+                <th class="px-4 py-3">Deskirpsi</th>
                 <th class="px-4 py-3">Jumlah anggota</th>
-                <th class="px-4 py-3">Actions</th>
+                <th class="px-4 py-3 text-center">Actions</th>
               </tr>
             </thead>
             <tbody id="tableBody"
-              class="bg-white divide-y dark:divide-gray-700"
+              class="bg-white divide-y"
             >
               <tr class="text-gray-700 ">
                 <td class="px-4 py-3 ">
                   1
                 </td>
                 <td class="px-4 py-3 text-sm">
-                  Petani jagung 
-                </td>
-                <td widht="200" class="px-4 py-3 text-sm">
-                  lorem adsasdajowoamdoamw daomaomdwomadonaownmd oian
+                  Petani jagung Trenggalek
                 </td>
                 <td class="px-4 py-3 text-sm">
-                  65
+                  Perawatan tanaman merupakan salah satu aspek krusial dalam pertanian yang menentukan keberhasilan dan kualitas hasil panen
                 </td>
-                <td class="px-4 py-3">
+                <td class="px-4 py-3 text-sm">
+                  inigambar.png
+                </td>
+                <td class="px-10 py-3 ">
                   <div class="flex items-center space-x-4 text-sm">
                     <a href="/artikel/edit">
                       <button
-                      class="flex items-center justify-between px-2 py-2 text-sm font-medium leading-5 text-purple-600 rounded-lg  focus:outline-none focus:shadow-outline-gray"
+                      class="flex items-center justify-between px-2 py-2 text-sm font-medium leading-5 text-[#FDAA5D] rounded-lg  focus:outline-none focus:shadow-outline-gray"
                       aria-label="Edit"
                     >
                       <svg
@@ -69,7 +69,7 @@
                     </a>
                     <a href="">
                       <button
-                      class="flex items-center justify-between px-2 py-2 text-sm font-medium leading-5 text-purple-600 rounded-lg  focus:outline-none focus:shadow-outline-gray"
+                      class="flex items-center justify-between py-2 text-sm font-medium leading-5 text-red-600 rounded-lg  focus:outline-none focus:shadow-outline-gray"
                       aria-label="Delete"
                     >
                       <svg
@@ -93,7 +93,7 @@
           </table>
         </div>
         <div
-          class="grid px-4 py-3 text-xs font-semibold tracking-wide text-gray-500 uppercase border-t bg-gray-50 sm:grid-cols-9  "
+          class="grid px-4 py-3 text-xs font-semibold tracking-wide text-gray-500 uppercase border-t bg-gray-50 sm:grid-cols-9"
         >
           <span class="flex items-center col-span-3">
             Showing 1-10 of 100
@@ -105,7 +105,7 @@
               <ul class="inline-flex items-center">
                 <li>
                   <button
-                    class="px-3 py-1 rounded-md rounded-l-lg focus:outline-none focus:shadow-outline-purple"
+                    class="px-3 py-1 rounded-md rounded-l-lg focus:outline-none"
                     aria-label="Previous"
                   >
                     <svg
@@ -123,52 +123,21 @@
                 </li>
                 <li>
                   <button
-                    class="px-3 py-1 text-white transition-colors duration-150 bg-purple-600 border border-r-0 border-purple-600 rounded-md focus:outline-none focus:shadow-outline-purple"
+                    class="px-3 py-1 text-white transition-colors duration-150 bg-[#4AB7B6] border border-r-0 rounded-md focus:outline-none "
                   >
                     1
                   </button>
                 </li>
                 <li>
                   <button
-                    class="px-3 py-1 rounded-md focus:outline-none focus:shadow-outline-purple"
+                    class="px-3 py-1 rounded-md focus:outline-none"
                   >
                     2
                   </button>
                 </li>
                 <li>
                   <button
-                  class="px-3 py-1 rounded-md focus:outline-none focus:shadow-outline-purple"
-                  >
-                    3
-                  </button>
-                </li>
-                <li>
-                  <button
-                    class="px-3 py-1 rounded-md focus:outline-none focus:shadow-outline-purple"
-                  >
-                    4
-                  </button>
-                </li>
-                <li>
-                  <span class="px-3 py-1">...</span>
-                </li>
-                <li>
-                  <button
-                    class="px-3 py-1 rounded-md focus:outline-none focus:shadow-outline-purple"
-                  >
-                    8
-                  </button>
-                </li>
-                <li>
-                  <button
-                    class="px-3 py-1 rounded-md focus:outline-none focus:shadow-outline-purple"
-                  >
-                    9
-                  </button>
-                </li>
-                <li>
-                  <button
-                    class="px-3 py-1 rounded-md rounded-r-lg focus:outline-none focus:shadow-outline-purple"
+                    class="px-3 py-1 rounded-md rounded-r-lg focus:outline-none"
                     aria-label="Next"
                   >
                     <svg
